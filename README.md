@@ -5,11 +5,11 @@ Description: Simple Web Application that allows people to register for a lottery
 * Stores the submitted and validated data in a PostgreSQL database
 * Mechanism that automatically draws a winner every 60 seconds
 
-Backend: Spring Boot, Java, PostgreSQL and Maven.
+Backend: Spring Boot, Java 8, PostgreSQL and Maven 3.3.3.
 
 To run the Backend use "mvn spring-boot:run" and you need to have a PostgreSQL instance running with a postgres database or just edit the database configurations in the file "application.properties" file to your choosing. The Backend is running in the port 8090.
 
-Frontend: Bootstrap, jQuery, Spring and Maven.
+Frontend: Bootstrap, jQuery, Spring and Maven 3.3.3.
 
 To run the Frontend use "mvn tomcat:run" and access the Web App with the url "localhost:8080/lottery-frontend".
 
